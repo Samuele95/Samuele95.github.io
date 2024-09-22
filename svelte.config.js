@@ -15,10 +15,10 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/Samuele95.github.io' : '',
+			base: '/Samuele95.github.io',
 		},
 		// Other configurations...
-	}
+	},
 };
 
 export default config;
